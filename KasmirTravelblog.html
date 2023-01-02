@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>My travel blog</title>
+
+    <style>
+      #body{
+        background-image:url("https://assets.cntraveller.in/photos/60ba19f7bfe773a828a46a4f/16:9/w_1600,h_900,c_limit/Gulmarg-MAHARANI-MANDIR.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% ;}
+      #text {
+        font-size:xx-large;
+        color: rgb(239, 239, 240);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        text-decoration:dotted;
+        
+      }
+      #nature {
+        width: 45%;
+        position: absolute;
+        margin-left: 20px;
+      }
+
+      #summary{
+        position: absolute;
+        bottom: 10; 
+        background: rgb(0, 0, 0); 
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1; 
+        width: 30%; 
+        padding: 60px; 
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 35px;
+        margin-left:25px ;}
+
+      #cf img {
+        animation-name: manali;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-duration: 6s;
+        animation-delay: 2s;
+        animation-direction: alternate;
+        position: absolute;
+        object-position: 70px 30px;
+        margin-left:50% ;
+        margin-bottom: 50px;
+        margin-right: 10px;
+        margin-top: -30px;
+        width:60em;
+        height: 800px;
+
+      }
+
+      #cf img:nth-of-type(1) {
+        animation-delay: 5s;
+      }
+
+      #cf img:nth-of-type(2) {
+        animation-delay: 3s;
+      }
+
+      #cf img:nth-of-type(3) {
+        animation-delay: 1s;
+      }
+
+      @keyframes manali {
+        0% {
+          opacity: 1;
+        }
+        25% {
+          opacity: 0;
+        }
+        75% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      #youtube{margin-top: 40%;
+        margin-left: 30%;
+        
+        }
+      #map{margin-top: -18.9%;
+        }
+
+    </style>
+  </head>
+
+  <body id="body">
+    <div id="text">
+      <h1>Welcome to Heaven on Earth, Kashmir.</h1>
+    </div>
+
+    <div>
+      <img id="nature" src="https://www.kosha.co/journal/wp-content/uploads/2021/02/gulmarg-winter-sports.jpg" />
+      
+      <p id="summary">
+        <br> Gulmarg, Kashmir. <br>
+        <br>
+        The most picturesque valley of India, Kashmir is the heaven on earth that all of us need to visit at least once in a lifetime! The Kashmir Blog gives you an insight to all the rightful knowledge you need to know before planning a trip to Kashmir, one of the most beautiful places in the world!
+         <br>
+        <br>Regards,<br>Chandrashekhar Mistry</p>
+    </div>
+    </div>
+    <div id="cf">
+      <img class="bottom" src="im1.jpg" />
+      <img class="top" src="im2.jpg" />
+      <img class="bottom" src="im3.jpg" />
+    </div>
+    
+    <div id="youtube">
+        <p><iframe width="560" height="315" src="https://www.youtube.com/embed/8tzokWbTo4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+    </div>
+    <div id="map">
+        <div class="mapouter"><div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13222.945235994735!2d74.3627413546585!3d34.05063462051742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e1af91308dd977%3A0x7a5cc65c8fb01df7!2sGulmarg%20193403!5e0!3m2!1sen!2sin!4v1672495002248!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></style></div>
+    </div>
+  </body>
+</html>
